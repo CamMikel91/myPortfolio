@@ -1,0 +1,95 @@
+/* Media Query Breakpoints */
+/* Desktop: @media screen and (min-width: 1024px) */
+/* Tablet: @media screen and (min-width: 768px) and (max-width: 1023px) */
+/* Phone: @media screen and (max-width: 767px) */
+
+:root {
+  /* colors */
+  /* --primary: #283618; */
+  --primary: #000a13;
+  --primary-accent: #002242;
+  --primary-accent-light: #00a0eb;
+  /* --secondary: #b1d4e0; */
+  --secondary: #f0f0f0;
+  --highlight-accent: #bc6c25;
+  --highlight: #ff8800;
+  --dark: #333;
+  --light: #f0f0f0;
+
+  /* fonts */
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+
+  /* font sizes */
+  --font-size-small: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 3rem;
+
+  /* font weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+}
+
+body {
+  font-family: var(--font-primary) !important;
+  color: var(--secondary) !important;
+  background-color: var(--primary) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.row {
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: var(--font-size-large) !important;
+  font-weight: var(--font-weight-semi-bold) !important;
+}
+
+h2 {
+  font-size: var(--font-size-medium) !important;
+  font-weight: var(--font-weight-semi-bold) !important;
+}
+
+.button {
+  background-color: var(--highlight) !important;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  width: 150px;
+  text-align: center;
+  margin: 24px 0;
+  border-radius: 10px;
+  color: var(--secondary) !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-weight: var(--font-weight-bold) !important;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: var(--highlight-accent) !important;
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.highlight {
+  color: var(--highlight) !important;
+  font-weight: var(--font-weight-bold) !important;
+  font-size: var(--font-size-medium) !important;
+  font-style: italic;
+}
+
+/* Media Queries */
+
+/* Phone Query */
+@media screen and (max-width: 767px) {
+}
+
+/* Tablet Query */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Desktop Query */
+@media screen and (min-width: 1024px) {
+}
