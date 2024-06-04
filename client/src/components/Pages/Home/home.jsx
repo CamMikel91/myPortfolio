@@ -31,7 +31,7 @@ class home extends Component {
 
         <div className="container">
           {/* About Section */}
-          <div id="aboutRow" className="row gx-5 p-5 my-4">
+          <div id="aboutRow" className="row">
             <div className="col-sm-12 col-md-6">
               <img
                 src="/assets/selfPortrait_04.png"
@@ -63,7 +63,7 @@ class home extends Component {
           </div>
 
           {/* Skills Section */}
-          <div id="skillsRow" className="row gx-5 p-5 my-4">
+          <div id="skillsRow" className="row">
             <div className="col-sm-12 col-md-6">
               <div>
                 <h3 className="mb-3">My Tech Stack</h3>
@@ -117,6 +117,71 @@ class home extends Component {
               </div>
             </div>
           </div>
+          {/* Projects Section */}
+          <section id="featuredProjectSection">
+            <div className="row gx-3">
+              <div className="col-12 text-center mb-5">
+                <h2>Featured Project</h2>
+              </div>
+              <div className="col-sm-12 col-md-6 mb-5">
+                <img
+                  src="./assets/BC_mockups_complete.png"
+                  alt="BC Small Engine Mockups"
+                />
+              </div>
+              <div className="col-sm-12 col-md-6">
+                <div>
+                  <h4>BC Small Engine Repair</h4>
+                  <p>
+                    BC Small Engine Repair is a repair/warranty center located
+                    in Kaysville, UT. They specialize in small engine and lawn
+                    equipment repair and work on a large variety of brands and
+                    machine types. They have been in business for over 24 years
+                    and have a loyal customer base that grows larger each year.
+                  </p>
+                  <p>
+                    Their previous website didn't provide customers with any
+                    details about service prices and listed outdated business
+                    hours and information. The website was also not mobile
+                    friendly and did not reflect the quality of service that BC
+                    Small Engine Repair provides.
+                  </p>
+                  <div className="button">View Project</div>
+                </div>
+              </div>
+              <div id="featuredProjectDetails" className="row mt-5 gx-4">
+                <div className="col-sm-12 col-md-6 col-lg-4">
+                  <h4>Purpose</h4>
+                  <p>
+                    The purpose of this project was to create a website that
+                    showcases the services offered by BC Small Engine Repair and
+                    provide customers with a way to contact the business and get
+                    accurate information about their services.
+                  </p>
+                </div>
+                <div className="col-sm-12 col-md-6 col-lg-4">
+                  <h4>Technologies</h4>
+                  <ul>
+                    <li>MongoDB</li>
+                    <li>Express API</li>
+                    <li>React Client</li>
+                    <li>Node.js</li>
+                    <li>Bootstrap</li>
+                    <li>Joi Validation</li>
+                  </ul>
+                </div>
+                <div className="col-sm-12 col-md-6 col-lg-4">
+                  <h4>Functionality</h4>
+                  <p>
+                    Displays a monthly coupon on the homepage that rotates out
+                    automatically each month, replacing the previous bi-yearly
+                    magazine ad marketing strategy and providing a montly reason
+                    for customers to check the website.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </>
     );
