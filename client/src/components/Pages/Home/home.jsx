@@ -57,7 +57,7 @@ class home extends Component {
                   I am currently seeking new opportunities to work on exciting
                   projects with a talented team.
                 </p>
-                <div className="button">Learn More</div>
+                <div className="button mx-auto">Learn More</div>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@ class home extends Component {
           </div>
           {/* Projects Section */}
           <section id="featuredProjectSection">
-            <div className="row gx-3">
+            <div className="row gx-3 px-5">
               <div className="col-12 text-center mb-5">
                 <h2>Featured Project</h2>
               </div>
@@ -129,27 +129,31 @@ class home extends Component {
                   alt="BC Small Engine Mockups"
                 />
               </div>
-              <div className="col-sm-12 col-md-6">
+              <div className="col-sm-12 col-md-6 mt-3">
                 <div>
-                  <h4>BC Small Engine Repair</h4>
-                  <p>
+                  <h3>BC Small Engine Repair</h3>
+                  <p className="mb-4">
                     BC Small Engine Repair is a repair/warranty center located
                     in Kaysville, UT. They specialize in small engine and lawn
                     equipment repair and work on a large variety of brands and
                     machine types. They have been in business for over 24 years
                     and have a loyal customer base that grows larger each year.
                   </p>
-                  <p>
-                    Their previous website didn't provide customers with any
+                  <h5>Original Problem</h5>
+                  <p style={{ fontSize: ".85rem" }}>
+                    Their original website didn't provide customers with any
                     details about service prices and listed outdated business
                     hours and information. The website was also not mobile
                     friendly and did not reflect the quality of service that BC
                     Small Engine Repair provides.
                   </p>
-                  <div className="button">View Project</div>
+                  <div className="button mx-auto">View Other Work</div>
                 </div>
               </div>
-              <div id="featuredProjectDetails" className="row mt-5 gx-4">
+              <div
+                id="featuredProjectDetails"
+                className="row my-5 mx-auto gx-4"
+              >
                 <div className="col-sm-12 col-md-6 col-lg-4">
                   <h4>Purpose</h4>
                   <p>
@@ -173,10 +177,11 @@ class home extends Component {
                 <div className="col-sm-12 col-md-6 col-lg-4">
                   <h4>Functionality</h4>
                   <p>
-                    Displays a monthly coupon on the homepage that rotates out
-                    automatically each month, replacing the previous bi-yearly
-                    magazine ad marketing strategy and providing a montly reason
-                    for customers to check the website.
+                    Displays a monthly coupon on the homepage to users that are
+                    registered and logged in, that rotates out automatically
+                    each month and replacing the previous bi-yearly magazine ad
+                    marketing strategy and providing a montly reason for
+                    customers to check the website.
                   </p>
                 </div>
               </div>

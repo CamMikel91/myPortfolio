@@ -3,6 +3,7 @@
     url("../../../../public/Assets/homeHeroBackground.jpg") !important;
   background-size: cover !important;
   background-position: center !important;
+  width: 100vw !important;
   border-radius: 0 !important;
   color: var(--secondary) !important;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);

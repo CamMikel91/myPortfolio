@@ -1,0 +1,46 @@
+@import "../style.css";
+
+footer {
+  flex-basis: 25px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(
+    to bottom,
+    var(--primary-accent),
+    var(--primary)
+  );
+}
+
+footer h3 {
+  text-align: center;
+  color: var(--secondary);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-semi-bold);
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+footer a:hover {
+  color: var(--highlight);
+  display: inline-block;
+  transform: scale(1.2) !important;
+}
+
+#footerContactForm button {
+  margin-top: 10px !important;
+}
