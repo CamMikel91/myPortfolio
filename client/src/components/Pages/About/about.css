@@ -1,0 +1,16 @@
+#aboutContainer .row {
+  padding: 3rem 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+#aboutContainer h1,
+h2,
+h3 {
+  margin-bottom: 1.5rem !important;
+}
+
+#aboutContainer img {
+  width: 75%;
+  margin: 2rem 0;
+}

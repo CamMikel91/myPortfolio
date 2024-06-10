@@ -123,13 +123,13 @@ class home extends Component {
               <div className="col-12 text-center mb-5">
                 <h2>Featured Project</h2>
               </div>
-              <div className="col-sm-12 col-md-6 mb-5">
+              <div className="col-md-12 col-lg-6 mb-5">
                 <img
                   src="./assets/BC_mockups_complete.png"
                   alt="BC Small Engine Mockups"
                 />
               </div>
-              <div className="col-sm-12 col-md-6 mt-3">
+              <div className="col-md-12 col-lg-6 mt-3">
                 <div>
                   <h3>BC Small Engine Repair</h3>
                   <p className="mb-4">
