@@ -8,6 +8,7 @@ import {
   faNodeJs,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
+import Footer from "../../footer";
 import "./home.css";
 
 class home extends Component {
@@ -20,7 +21,7 @@ class home extends Component {
             <div id="homeHeading">
               <h1>Hi, I'm Cameron</h1>
               <h2>
-                I build websites to bridge the gap between you and your
+                I build websites to help bridge the gap between you and your
                 customers
               </h2>
             </div>
@@ -188,6 +189,7 @@ class home extends Component {
             </div>
           </section>
         </div>
+        <Footer />
       </>
     );
   }

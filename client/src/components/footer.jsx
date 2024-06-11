@@ -54,6 +54,18 @@ class Footer extends Component {
                     />
                   </div>
                   <div className="mb-3">
+                    <label htmlFor="phone" className="form-label">
+                      Phone (optional)
+                    </label>
+                    <input
+                      type="phone"
+                      name="phone"
+                      className="form-control"
+                      id="phone"
+                      optional
+                    />
+                  </div>
+                  <div className="mb-3">
                     <label htmlFor="message" className="form-label">
                       Message
                     </label>

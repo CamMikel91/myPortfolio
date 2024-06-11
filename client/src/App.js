@@ -2,7 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import Nav from "./components/nav.jsx";
 import Home from "./components/Pages/Home/home.jsx";
 import About from "./components/Pages/About/about.jsx";
-import Footer from "./components/footer.jsx";
+import Contact from "./components/Pages/Contact/contact.jsx";
+// import Footer from "./components/footer.jsx";
 import "./css/style.css";
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

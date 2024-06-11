@@ -1,0 +1,102 @@
+#myInfoSection {
+  border-radius: 25px;
+  /* padding: clamp(1rem, 5vw, 4rem); */
+  padding: 2rem;
+  border: 1px solid var(--primary-accent);
+  box-shadow: inset 0 0 10px var(--primary-accent-light);
+  background-image: linear-gradient(
+    to right,
+    var(--primary-accent),
+    var(--primary)
+  );
+}
+
+#contactSocials {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1.75rem;
+}
+
+#contactSocials .icon {
+  color: var(--secondary);
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+
+#contactSocials .icon:hover {
+  color: var(--highlight);
+  display: inline-block;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#myInfoSection h1,
+#contactForm h1 {
+  font-size: clamp(1rem, 2.5rem, 5rem) !important;
+  margin-bottom: 1rem;
+}
+
+#myInfoSection ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  justify-content: center;
+}
+
+#contactForm {
+  border-radius: 25px;
+  /* padding: clamp(1rem, 5vw, 4rem); */
+  padding: 2rem;
+  border: 1px solid var(--primary-accent);
+  box-shadow: inset 0 0 10px var(--primary-accent-light);
+  background-image: linear-gradient(
+    to right,
+    var(--primary-accent),
+    var(--primary)
+  );
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  border: 1px solid var(--primary-accent);
+  box-shadow: inset 0 0 3px var(--primary-accent-light);
+}
+
+#contactForm input:hover,
+#contactForm textarea:hover {
+  border: 1px solid var(--highlight);
+  cursor: pointer;
+  box-shadow: inset 0 0 5px var(--primary-accent);
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+  border: 2px solid var(--highlight);
+}
+
+#contactForm button {
+  margin-top: 10px;
+  background-color: var(--highlight) !important;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  width: 100px;
+  text-align: center;
+  margin-top: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  color: var(--secondary) !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-weight: var(--font-weight-bold) !important;
+  padding: 0.75rem;
+  text-wrap: nowrap;
+}
+
+@media screen and (max-width: 990px) {
+  #contactForm {
+    margin-top: 2rem;
+  }
+}
