@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDatabase, faServer } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -25,8 +26,33 @@ class home extends Component {
                 customers
               </h2>
             </div>
-
-            <div className="button">Get Started</div>
+            <Link
+              to="/contact"
+              className="button d-block mt-5 mb-2"
+              onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+              }}
+            >
+              Contact Me
+            </Link>
+            <button
+              className="resumeButton"
+              onClick={() => {
+                window.open("./Assets/cameron-mikel_resume.pdf", "_blank");
+              }}
+            >
+              View
+            </button>
+            /
+            <a
+              className="resumeButton"
+              href="./Assets/cameron-mikel_resume.pdf"
+              download
+            >
+              {" "}
+              Download{" "}
+            </a>
+            Resume
           </div>
         </div>
 
@@ -58,7 +84,15 @@ class home extends Component {
                   I am currently seeking new opportunities to work on exciting
                   projects with a talented team.
                 </p>
-                <div className="button mx-auto">Learn More</div>
+                <Link
+                  to="/about"
+                  className="button d-block mt-4"
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
+                >
+                  Learn More
+                </Link>
               </div>
             </div>
           </div>
@@ -148,7 +182,15 @@ class home extends Component {
                     friendly and did not reflect the quality of service that BC
                     Small Engine Repair provides.
                   </p>
-                  <div className="button mx-auto">View Other Work</div>
+                  <Link
+                    to="/projects"
+                    className="button d-block mt-4"
+                    onClick={() => {
+                      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                    }}
+                  >
+                    Other Projects
+                  </Link>
                 </div>
               </div>
               <div

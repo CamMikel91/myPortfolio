@@ -18,6 +18,20 @@
   margin-right: auto;
 }
 
+.homeHero .resumeButton {
+  margin-top: 1.5rem;
+  color: var(--secondary) !important;
+  background-color: transparent !important;
+  border: none;
+  text-decoration: none;
+}
+
+.homeHero .resumeButton:hover {
+  cursor: pointer;
+  scale: 1.05;
+  color: var(--highlight) !important;
+}
+
 #homeHeading h1 {
   font-size: clamp(2rem, 3rem, 4rem) !important;
 }
