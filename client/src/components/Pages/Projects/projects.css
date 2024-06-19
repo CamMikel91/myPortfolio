@@ -1,0 +1,114 @@
+#projectsContainer .row {
+  border-radius: 25px;
+  padding: 2rem 1rem;
+  margin: 0.5rem 1rem;
+}
+
+#projectsContainer h1 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+#projectsContainer h2 {
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--highlight);
+}
+
+#projectsContainer h3 {
+  font-weight: var(--font-weight-semi-bold);
+}
+
+#projectsContainer h4 {
+  font-weight: var(--font-weight-semi-bold);
+}
+
+#projectsContainer h5 {
+  font-weight: var(--font-weight-semi-bold);
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+#projectsContainer h6 {
+  font-weight: var(--font-weight-semi-bold);
+}
+
+#taskManagerSection {
+  background-image: linear-gradient(
+    to left,
+    var(--primary-accent),
+    var(--primary)
+  );
+  border-radius: 25px;
+}
+
+#taskManagerSection h4 {
+  margin-bottom: 1.5rem;
+}
+
+.taskManagerImg {
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.projectDetails {
+  background-color: var(--primary-accent);
+  border-radius: 25px;
+}
+
+#palDexSection {
+  background-image: linear-gradient(
+    to right,
+    var(--primary-accent),
+    var(--primary)
+  );
+  border-radius: 25px;
+}
+
+/* Media Queries */
+
+/* Phone Query */
+@media screen and (max-width: 767px) {
+  #projectsContainer .row {
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+  #projectsContainer h1 {
+    font-size: var(--font-size-medium);
+  }
+  #projectsContainer h2 {
+    font-size: var(--font-size-medium);
+  }
+  #projectsContainer h3 {
+    font-size: var(--font-size-medium);
+  }
+  #projectsContainer h4 {
+    font-size: var(--font-size-medium);
+  }
+  #projectsContainer h5 {
+    font-size: var(--font-size-medium);
+  }
+  #projectsContainer h6 {
+    font-size: var(--font-size-medium);
+  }
+  #taskManagerSection h4 {
+    font-size: var(--font-size-medium);
+  }
+  .taskManagerImg {
+    width: 100%;
+  }
+  .projectDetails {
+    padding: 1rem;
+  }
+  #palDexSection h4 {
+    font-size: var(--font-size-medium);
+  }
+}
+
+/* Tablet Query */
+@media screen and (min-width: 768px) {
+}
+
+/* Desktop Query */
+@media screen and (min-width: 1024px) {
+}

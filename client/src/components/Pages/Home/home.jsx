@@ -12,7 +12,7 @@ import {
 import Footer from "../../footer";
 import "./home.css";
 
-class home extends Component {
+class Home extends Component {
   render() {
     return (
       <>
@@ -174,14 +174,6 @@ class home extends Component {
                     machine types. They have been in business for over 24 years
                     and have a loyal customer base that grows larger each year.
                   </p>
-                  <h5>Original Problem</h5>
-                  <p style={{ fontSize: ".85rem" }}>
-                    Their original website didn't provide customers with any
-                    details about service prices and listed outdated business
-                    hours and information. The website was also not mobile
-                    friendly and did not reflect the quality of service that BC
-                    Small Engine Repair provides.
-                  </p>
                   <Link
                     to="/projects"
                     className="button d-block mt-4"
@@ -217,14 +209,14 @@ class home extends Component {
                     <li>Joi Validation</li>
                   </ul>
                 </div>
-                <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="col-sm-12 col-lg-4">
                   <h4>Functionality</h4>
                   <p>
                     Displays a monthly coupon on the homepage to users that are
-                    registered and logged in, that rotates out automatically
-                    each month and replacing the previous bi-yearly magazine ad
-                    marketing strategy and providing a montly reason for
-                    customers to check the website.
+                    registered and logged in, the coupon rotates out
+                    automatically each month. Saves the business money by
+                    replacing their bi-yearly magazine ad marketing strategy and
+                    provides a montly reason for customers to check the website.
                   </p>
                 </div>
               </div>
@@ -237,4 +229,4 @@ class home extends Component {
   }
 }
 
-export default home;
+export default Home;

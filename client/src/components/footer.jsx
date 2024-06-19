@@ -87,16 +87,44 @@ class Footer extends Component {
               <h3>Links</h3>
               <ul>
                 <li>
-                  <Link to={"/"}>Home</Link>
+                  <Link
+                    onClick={() => {
+                      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                    }}
+                    to={"/"}
+                  >
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link to={"/about"}>About</Link>
+                  <Link
+                    onClick={() => {
+                      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                    }}
+                    to={"/about"}
+                  >
+                    About
+                  </Link>
                 </li>
                 <li>
-                  <Link to={"/projects"}>Projects</Link>
+                  <Link
+                    onClick={() => {
+                      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                    }}
+                    to={"/projects"}
+                  >
+                    Projects
+                  </Link>
                 </li>
                 <li>
-                  <Link to={"/contact"}>Contact</Link>
+                  <Link
+                    onClick={() => {
+                      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                    }}
+                    to={"/contact"}
+                  >
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
