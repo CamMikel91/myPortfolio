@@ -38,7 +38,7 @@ class Home extends Component {
             <button
               className="resumeButton"
               onClick={() => {
-                window.open("./Assets/cameron-mikel_resume.pdf", "_blank");
+                window.open("./assets/cameron-mikel_resume.pdf", "_blank");
               }}
             >
               View
@@ -46,7 +46,7 @@ class Home extends Component {
             /
             <a
               className="resumeButton"
-              href="./Assets/cameron-mikel_resume.pdf"
+              href="./assets/cameron-mikel_resume.pdf"
               download
             >
               {" "}
