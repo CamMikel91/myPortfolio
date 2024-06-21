@@ -1,6 +1,6 @@
 .homeHero {
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)),
-    url("../../../../public/Assets/homeHeroBackground.jpg") !important;
+    url("../../../../public/assets/homeHeroBackground.jpg") !important;
   background-size: cover !important;
   background-position: center !important;
   width: 100vw !important;

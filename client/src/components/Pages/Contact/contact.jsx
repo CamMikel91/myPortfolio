@@ -11,8 +11,40 @@ class Contact extends Component {
     return (
       <div id="contactContainer" className="container">
         <div className="row">
+          <div className="col-sm-12 col-lg-4">
+            <section id="myInfoSection" className="h-100">
+              <h1>My Info</h1>
+              <ul>
+                <li>Cameron Mikel</li>
+                <li>Web Developer</li>
+                <li>(801) 917-7016</li>
+                <li>CamMikel91@gmail.com</li>
+              </ul>
+              <div id="contactSocials">
+                <div
+                  className="icon"
+                  onClick={() =>
+                    window.open("https://github.com/CamMikel91", "_blank")
+                  }
+                >
+                  <FontAwesomeIcon icon={faSquareGithub} />
+                </div>
+                <div
+                  className="icon"
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/in/cameron-mikel/",
+                      "_blank"
+                    )
+                  }
+                >
+                  <FontAwesomeIcon icon={faLinkedinIn} />
+                </div>
+              </div>
+            </section>
+          </div>
           <div className="col-sm-12 col-lg-8">
-            <section id="contactForm">
+            <section id="contactForm" className="h-100">
               <h1>Contact Me</h1>
               <p>
                 If you have any questions or would like to work with me, please
@@ -76,38 +108,6 @@ class Contact extends Component {
                   Send
                 </button>
               </form>
-            </section>
-          </div>
-          <div className="col-sm-12 col-lg-4">
-            <section id="myInfoSection" className=" h-100">
-              <h1>My Info</h1>
-              <ul>
-                <li>Cameron Mikel</li>
-                <li>Web Developer</li>
-                <li>(801) 917-7016</li>
-                <li>CamMikel91@gmail.com</li>
-              </ul>
-              <div id="contactSocials">
-                <div
-                  className="icon"
-                  onClick={() =>
-                    window.open("https://github.com/CamMikel91", "_blank")
-                  }
-                >
-                  <FontAwesomeIcon icon={faSquareGithub} />
-                </div>
-                <div
-                  className="icon"
-                  onClick={() =>
-                    window.open(
-                      "https://www.linkedin.com/in/cameron-mikel/",
-                      "_blank"
-                    )
-                  }
-                >
-                  <FontAwesomeIcon icon={faLinkedinIn} />
-                </div>
-              </div>
             </section>
           </div>
         </div>

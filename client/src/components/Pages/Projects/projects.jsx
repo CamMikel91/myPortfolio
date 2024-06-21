@@ -32,29 +32,18 @@ class Projects extends Component {
             </div>
           </div>
           {/* BC Small Engine Repair Project Start */}
-          <div id="bcRow" className="row mb-5">
+          <div id="bcRow" className="row mb-5 p-0">
             <section id="featuredProjectSection">
               <div className="row">
-                <div className="col-md-12 col-lg-6 mt-3">
-                  <div>
-                    <h2>BC Small Engine Repair</h2>
-                    <p className="mb-4">
-                      BC Small Engine Repair is a repair/warranty center located
-                      in Kaysville, UT. They specialize in small engine and lawn
-                      equipment repair and work on a large variety of brands and
-                      machine types. They have been in business for over 24
-                      years and have a loyal customer base that grows larger
-                      each year.
-                    </p>
-                    <h5>Original Problem</h5>
-                    <p style={{ fontSize: ".85rem" }}>
-                      Their original website didn't provide customers with any
-                      details about service prices and listed outdated business
-                      hours and information. The website was also not mobile
-                      friendly and did not reflect the quality of service that
-                      BC Small Engine Repair provides.
-                    </p>
-                  </div>
+                <div className="col-md-12 col-lg-6 my-auto">
+                  <h2>BC Small Engine Repair</h2>
+                  <p className="mb-4">
+                    BC Small Engine Repair is a repair/warranty center located
+                    in Kaysville, UT. They specialize in small engine and lawn
+                    equipment repair and work on a large variety of brands and
+                    machine types. They have been in business for over 24 years
+                    and have a loyal customer base that grows larger each year.
+                  </p>
                 </div>
                 <div className="col-md-12 col-lg-6 mb-5">
                   <img
@@ -105,8 +94,8 @@ class Projects extends Component {
           <div className="row p-0">
             <section id="taskManagerSection">
               <div className="row">
-                <h2>Task Manager (CRUD Project)</h2>
-                <div className="col-md-12 col-lg-6">
+                <div className="col-md-12 col-lg-6 my-auto">
+                  <h2>Task Manager (CRUD Project)</h2>
                   <p className="mb-4">
                     This was a project that I completed in my Web Development
                     class. The purpose of this project was to learn how to
@@ -151,7 +140,7 @@ class Projects extends Component {
                   <h3>Database & Security</h3>
                 </div>
                 <div className="row px-0 ">
-                  <div className="col-sm-12 col-lg-6">
+                  <div className="col-sm-12 col-lg-6 my-auto">
                     <h5>User Data Security</h5>
                     <p className="mb-1">
                       When a new user is created, they are assigned a user ID
@@ -177,7 +166,7 @@ class Projects extends Component {
                       alt="TaskManager user list screenshot"
                     />
                   </div>
-                  <div className="col-sm-12 col-lg-6">
+                  <div className="col-sm-12 col-lg-6 my-auto">
                     <h5>Task Specificity</h5>
                     <p>
                       When a new task is created, it is given an "owner"
@@ -205,11 +194,11 @@ class Projects extends Component {
             </section>
           </div>
           {/* PalDex Project Start */}
-          <div id="palDexRow" className="row">
+          <div id="palDexRow" className="row p-0">
             <section id="palDexSection">
               <div className="row">
-                <h2>PalDex</h2>
-                <div className="col-md-12 col-lg-6">
+                <div className="col-md-12 col-lg-6 my-auto">
+                  <h2>PalDex</h2>
                   <p className="mb-4">
                     PalDex is a small scale, full stack application that I built
                     for personal use with the PalWorld game. The purpose of this
@@ -251,7 +240,7 @@ class Projects extends Component {
                   </div>
                 </div>
                 <div className="row px-0 ">
-                  <div className="col-sm-12 col-lg-6">
+                  <div className="col-sm-12 col-lg-6 my-auto">
                     <h5>Database Details</h5>
                     <ul className="text-start">
                       <li>
@@ -273,7 +262,7 @@ class Projects extends Component {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-sm-12 col-lg-6 mb-3 text-center">
+                  <div className="col-sm-12 col-lg-6 mb-3 text-center my-auto">
                     <h5>Technologies</h5>
                     <ul className="list-unstyled">
                       <li>MongoDB Database</li>

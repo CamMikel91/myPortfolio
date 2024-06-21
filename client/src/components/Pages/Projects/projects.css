@@ -1,7 +1,6 @@
 #projectsContainer .row {
   border-radius: 25px;
   padding: 2rem 1rem;
-  margin: 0.5rem 1rem;
 }
 
 #projectsContainer h1 {
@@ -70,29 +69,7 @@
 /* Phone Query */
 @media screen and (max-width: 767px) {
   #projectsContainer .row {
-    padding: 1rem;
-    margin: 0.5rem 0;
-  }
-  #projectsContainer h1 {
-    font-size: var(--font-size-medium);
-  }
-  #projectsContainer h2 {
-    font-size: var(--font-size-medium);
-  }
-  #projectsContainer h3 {
-    font-size: var(--font-size-medium);
-  }
-  #projectsContainer h4 {
-    font-size: var(--font-size-medium);
-  }
-  #projectsContainer h5 {
-    font-size: var(--font-size-medium);
-  }
-  #projectsContainer h6 {
-    font-size: var(--font-size-medium);
-  }
-  #taskManagerSection h4 {
-    font-size: var(--font-size-medium);
+    padding: 1.5rem;
   }
   .taskManagerImg {
     width: 100%;

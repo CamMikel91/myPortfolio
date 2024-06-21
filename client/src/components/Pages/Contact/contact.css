@@ -32,7 +32,6 @@
 #myInfoSection h1,
 #contactForm h1 {
   font-size: clamp(1rem, 2.5rem, 5rem) !important;
-  margin-bottom: 1rem;
 }
 
 #myInfoSection ul {
@@ -97,11 +96,7 @@
 /* Phone Query */
 @media screen and (max-width: 767px) {
   #contactContainer {
-    padding: 1rem;
-  }
-
-  #myInfoSection {
-    margin-top: 2rem;
+    padding: 0;
   }
 
   #contactForm {
@@ -115,8 +110,14 @@
 
 /* Tablet Query */
 @media screen and (min-width: 768px) {
+  #contactForm {
+    margin-top: 2rem;
+  }
 }
 
 /* Desktop Query */
 @media screen and (min-width: 1024px) {
+  #contactForm {
+    margin-top: 0;
+  }
 }
