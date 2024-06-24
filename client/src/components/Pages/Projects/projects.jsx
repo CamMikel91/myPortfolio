@@ -153,7 +153,7 @@ class Projects extends Component {
                   <div className="col-sm-12 col-lg-6 mb-3 d-flex align-center">
                     <img
                       className="taskManagerImg mx-auto d-block my-auto mb-3"
-                      src="./Assets/TaskManager_mongo_user_list.png"
+                      src="./assets/TaskManager_mongo_user_list.png"
                       alt="TaskManager user list screenshot"
                     />
                   </div>
@@ -162,7 +162,7 @@ class Projects extends Component {
                   <div className="col-sm-12 col-lg-6">
                     <img
                       className="taskManagerImg mx-auto mb-3"
-                      src="./Assets/TaskManager_mongo_task_list.png"
+                      src="./assets/TaskManager_mongo_task_list.png"
                       alt="TaskManager user list screenshot"
                     />
                   </div>
